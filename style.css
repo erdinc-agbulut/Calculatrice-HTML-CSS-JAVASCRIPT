@@ -1,0 +1,41 @@
+button {
+    padding: 10px;
+    width: 70px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #aaa;
+    color: black;
+    font-size: 20px;
+    border: solid;
+    border-radius: 50px;
+}
+
+#display {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(149, 165, 166);
+    padding: 20px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: solid;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+
+body {
+
+    color: white;
+    margin: auto;
+    margin-left: 500px;
+    margin-top: 150px;
+    
+}
+
+#op {
+    background-color: #FF9500;
+}

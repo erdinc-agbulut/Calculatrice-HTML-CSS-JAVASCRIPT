@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="calculatrice.js"></script>
+   <title>Calculatrice</title>
+</head>
+
+<body class="every">
+
+
+
+   <div id="display">
+
+      <p id="first"></p>
+
+      <p id="operateur"></p>
+
+      <p id="second"></p>
+   </div>
+
+   <div class="premier">
+      <button id="op" onclick="forClear()">CE</button>
+      <button id="op" onclick="clearC()">C</button>
+      <button id="op" onclick="effacerDernier()"> <- </button>
+      <button id="op" onclick="operateur('/')" >/</button>
+   </div>
+
+   <div class="deuxieme">
+      <button id="seven" onclick="afficherOne('7') ">7</button>
+      <button id="eight" onclick="afficherOne('8') ">8</button>
+      <button id="nine" onclick="afficherOne('9') ">9</button>
+      <button id="op" onclick="operateur('*')" >*</button>
+   </div>
+
+   <div class="troisieme">
+      <button id="four" onclick="afficherOne('4') ">4</button>
+      <button id="five" onclick="afficherOne('5') ">5</button>
+      <button id="six" onclick="afficherOne('6') ">6</button>
+      <button id="op" onclick="operateur('-')"  >-</button>
+   </div>
+
+   <div>
+      <button id="one" onclick="afficherOne('1') ">1</button>
+      <button id="two" onclick="afficherOne('2') ">2</button>
+      <button id="three" onclick="afficherOne('3') ">3</button>
+      <button id="op" onclick="operateur('+')">+</button>
+   </div>
+
+   <div class="cinquieme">
+      <button id="plusMoin" onclick="positifNegatif()">+/-</button>
+      <button id="zero" onclick="afficherOne('0') ">0</button>
+      <button id="point" onclick="gestionVirgule() ">,</button>
+      <button id="op" onclick="resultat()">=</button>
+   </div>
+
+
+
+
+   </div>
+
+</body>
+
+</html>
